@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-ÕâÊÇ±¾ÈË¶ÁÑÐÆÚ¼ä´´½¨µÄblog£¬Ö÷Òª¾ÍÊÇ¼ÇÂ¼Ò»Ð©Ñ§Ï°¾­ÑéºÍÏîÄ¿¾­Àú¡£
+æœ¬äººè¯»ç ”æœŸé—´åˆ›å»ºçš„blogï¼Œè®°å½•è‡ªå·±å­¦ä¹ ç»åŽ†å’Œé¡¹ç›®ç»éªŒã€‚
 
 ### More Information
 
-ÒÔºó»á¸üÐÂVTK¡¢QT¡¢C++¡¢JAVA¡¢HadoopµÈÒ»Ð©Ïà¹ØµÄblog¡£
+ä¸»è¦å…³äºŽC++ã€javaã€hadoopã€QTã€VTKç­‰ã€‚
 
 ### Contact me
 
