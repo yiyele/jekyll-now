@@ -11,6 +11,7 @@ description: Never Give Up!!
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: ./images/index2.jpg
 
+
 #
 # Flags below are optional
 #
@@ -21,7 +22,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: yiyele/yiyele.github.io
   instagram:
   linkedin:
   pinterest:
