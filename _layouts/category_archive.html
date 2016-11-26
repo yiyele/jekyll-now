@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="category-archive">
+  <div>
+    <span class="title">Category archive for {{ page.category }}</span>
+  </div>
+  <div>
+    <ul>
+	    <!--{{ content }}-->
+	    {% for post in site.categories.[page.category] %}
+	    {{ post.date }}{{ post.title }}
+	    {% endfor %}
+    </ul>
+  </div>
+</div>
