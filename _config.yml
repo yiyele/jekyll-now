@@ -11,7 +11,8 @@ description: Never Give Up!!
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/yiyele/yiyele.github.io/master/images/index2.jpg
 
-
+#false plugin can work
+safe: false
 #
 # Flags below are optional
 #
