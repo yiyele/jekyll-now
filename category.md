@@ -5,7 +5,7 @@ permalink: /category/
 ---
 
 {% for category in site.categories %}
-<h2><a href="{{ site.baseurl }}/mandorm/test">{{ category | first }}</a></h2>
+<h2><a href="{{ site.baseurl }}/test">{{ category | first }}</a></h2>
 <span>{{ category | last | size }}</span>
 <ul class="arc-list">
 	{% for post in category.last %}
