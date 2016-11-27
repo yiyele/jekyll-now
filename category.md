@@ -13,7 +13,7 @@ permalink: /category/
 		<li>{{ category.last[0].date | date:"%d/%m/%Y "}}<a href="{{ category.last[0].url }}">{{ category.last[0].title }}</a></li>
 	{% endif %
 	{% if category.last[1].url %}
-		<li>{{ category.last[1].date | date:"%d/%m/%Y "}}<a href="{{ category.last[0].url }}">{{ category.last[1].title }}</a></li>
+		<li>{{ category.last[1].date | date:"%d/%m/%Y "}}<a href="{{ category.last[1].url }}">{{ category.last[1].title }}</a></li>
 	{% endif %}
 	{% if category.last[2].url %}
 		<li>{{ category.last[2].date | date:"%d/%m/%Y "}}<a href="{{ category.last[2].url }}">{{ category.last[2].title }}</a></li>
