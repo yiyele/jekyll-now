@@ -9,7 +9,9 @@ permalink: /category/
 <span>{{ category | last | size }}</span>
 <ul class="arc-list">
 	{% for post in category.last %}
-		<li>{{ post.date | date:"%d/%m/%Y "}}<a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% if post.index < 4 %}
+			<li>{{ post.date | date:"%d/%m/%Y "}}<a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endif %}
 	{% endfor %}
 </ul>
 {% endfor %}
