@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Category
+title: test
 permalink: /test/
 ---
 
