@@ -22,7 +22,7 @@ layout: default
 	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
 	<p class="auther">
-		<span class="date">{{ post.date }}</span>
+		Written on {{ post.date | date: "%F" }}&nbsp;{{ post.category }}
 	</p>
 	<div class="content">
 		{{ post.content }}
