@@ -4,6 +4,7 @@ title: Category
 permalink: /category/
 ---
 
+<div class="category">
 {% for category in site.categories %}
 <h1><a href="{{ site.baseurl }}/myhtml/test.html">{{ category | first }}</a></h1>
 <span>{{ category | last | size }}</span>
@@ -13,3 +14,4 @@ permalink: /category/
 	{% endfor %}
 </ul>
 {% endfor %}
+</div>
