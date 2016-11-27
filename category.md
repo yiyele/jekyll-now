@@ -9,11 +9,14 @@ permalink: /category/
 <h1><a href="{{ site.baseurl }}/myhtml/index.html">{{ category | first }}</a></h1>
 <span>{{ category | last | size }}</span>
 <ul class="arc-list">
-	{% for post in category.last %}
-		<li>{{ post.date | date:"%d/%m/%Y "}}<a href="{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
 	{% if category.last[0].url %}
 		<li>{{ category.last[0].date | date:"%d/%m/%Y "}}<a href="{{ category.last[0].url }}">{{ category.last[0].title }}</a></li>
+	{% endif %
+	{% if category.last[1].url %}
+		<li>{{ category.last[1].date | date:"%d/%m/%Y "}}<a href="{{ category.last[0].url }}">{{ category.last[1].title }}</a></li>
+	{% endif %}
+	{% if category.last[2].url %}
+		<li>{{ category.last[2].date | date:"%d/%m/%Y "}}<a href="{{ category.last[2].url }}">{{ category.last[2].title }}</a></li>
 	{% endif %}
 </ul>
 {% endfor %}
