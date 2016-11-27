@@ -1,11 +1,11 @@
 ---
 layout: default
-title: test
-permalink: /mandorn/test/
+title: Category
+permalink: /test/
 ---
 
 {% for category in site.categories.test %}
-<h2><a href="{{ category.url }}/{{ category.title }}">{{ category | first }}</a></h2>
+<h2>{{ category | first }}</h2>
 <span>{{ category | last | size }}</span>
 <ul class="arc-list">
 	{% for post in category.last %}
