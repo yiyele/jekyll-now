@@ -5,7 +5,7 @@ permalink: /category/
 ---
 
 {% for category in site.categories %}
-<h2>{{ category | first }}</h2>
+<h2><a href="{{ category.url }}">{{ category | first }}</a></h2>
 <span>{{ category | last | size }}</span>
 <ul class="arc-list">
 	{% for post in category.last %}
