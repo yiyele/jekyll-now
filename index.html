@@ -5,7 +5,7 @@ layout: default
 <div class="post">
 {% for post in paginator.posts %}
 	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-
+	<h2>{{ post.url }}</h2>
 	<p class="auther">
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Written on {{ post.date | date: "%F" }}&nbsp;&nbsp;&nbsp;{{ post.category }}
 	</p>
