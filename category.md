@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Category
-permalink: /category/
 ---
 
 <div class="category">
