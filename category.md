@@ -5,12 +5,12 @@ title: Category
 
 <div class="categories">
 {% for category in site.categories %}
-<h1><a href="/myhtml/test.html">{{ category | first }}</a></h1>
+<h1><a href="{{ site.baseurl }}/myhtml/test.html">{{ category | first }}</a></h1>
 <span>{{ category | last | size }}</span>
 <ul class="arc-list">
 	{% if category.last[0].url %}
 		<li>{{ category.last[0].date | date:"%d/%m/%Y "}}<a href="{{ category.last[0].url }}">{{ category.last[0].title }}</a></li>
-	{% endif %
+	{% endif %}
 	{% if category.last[1].url %}
 		<li>{{ category.last[1].date | date:"%d/%m/%Y "}}<a href="{{ category.last[1].url }}">{{ category.last[1].title }}</a></li>
 	{% endif %}
