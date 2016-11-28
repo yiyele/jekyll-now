@@ -3,7 +3,7 @@ layout: default
 title: Category
 ---
 
-<div class="category">
+<div class="categories">
 {% for category in site.categories %}
 <h1><a href="{{ category.url }}">{{ category | first }}</a></h1>
 <span>{{ category | last | size }}</span>
