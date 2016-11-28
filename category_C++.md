@@ -5,5 +5,5 @@ category: C++
 ---
 
 {% for post in site.categories.[page.category] %}
-	{{ post.date }} {{ post.title }}
+	<li>{{ post.date | date:"%d/%m/%Y "}}<a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
