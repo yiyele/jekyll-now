@@ -6,7 +6,7 @@ permalink: /category/
 
 <div class="category">
 {% for category in site.categories %}
-<h1><a href="{{ site.baseurl }}/myhtml/index.html">{{ category | first }}</a></h1>
+<h1><a href="/categories/{{ category | first }}/">{{ category | first }}</a></h1>
 <span>{{ category | last | size }}</span>
 <ul class="arc-list">
 	{% if category.last[0].url %}
