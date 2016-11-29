@@ -1,7 +1,7 @@
 ---
 layout: post
 title: hello world!
-category: test1
+category: Others
 ---
 
 
