@@ -8,7 +8,7 @@ permalink: /about/
 
 ### More Information
 
-主要关于C++、java、hadoop、QT、VTK等。
+主要关于C++、java、hadoop、QT、VTK等。本博客的一些内容是我的经验或者是根据记忆记录的，如果有错误的地方，欢迎联系我。
 
 ### Contact me
 
